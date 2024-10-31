@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Lesiones del Hombro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f8ff;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            height: 80vh;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            color: #333;
+            font-size: 1.8em;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .chat-box {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .chat-message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+        .question {
+            background-color: #0056b3;
+            color: #fff;
+            align-self: flex-start;
+        }
+        .answer {
+            background-color: #4CAF50;
+            color: #fff;
+            align-self: flex-end;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+        .btn-yes {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .btn-no {
+            background-color: #f44336;
+            color: white;
+        }
+        .btn-reset {
+            background-color: #ff9800;
+            color: white;
+        }
+    </style>
+    <script>
+        // Función para obtener la siguiente pregunta o diagnóstico
+        async function getNextQuestion(response) {
+            const res = await fetch('/next-question', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ response })
+            });
+
+            const data = await res.json();
+            const chatBox = document.querySelector('.chat-box');
+
+            if (res.ok) {
+                // Mostrar la respuesta del usuario
+                if (response !== null) {
+                    const userAnswer = document.createElement('div');
+                    userAnswer.className = 'chat-message answer';
+                    userAnswer.innerText = response === 'si' ? "Si" : "No";
+                    chatBox.appendChild(userAnswer);
+                }
+
+                // Mostrar diagnóstico o siguiente pregunta
+                if (data.diagnosis) {
+                    const diagnosisMessage = document.createElement('div');
+                    diagnosisMessage.className = 'chat-message question';
+                    diagnosisMessage.innerText = "Posible diagnostico: " + data.diagnosis;
+                    chatBox.appendChild(diagnosisMessage);
+                    // Oculta los botones de "Si" y "No"
+                    document.querySelector('.btn-yes').style.display = 'none';
+                    document.querySelector('.btn-no').style.display = 'none';
+                } else {
+                    const questionMessage = document.createElement('div');
+                    questionMessage.className = 'chat-message question';
+                    questionMessage.innerText = data.question;
+                    chatBox.appendChild(questionMessage);
+                }
+
+                // Desplaza hacia abajo para ver la última pregunta o respuesta
+                chatBox.scrollTop = chatBox.scrollHeight;
+            } else {
+                const errorMessage = document.createElement('div');
+                errorMessage.className = 'chat-message question';
+                errorMessage.innerText = "Error: " + data.detail;
+                chatBox.appendChild(errorMessage);
+            }
+        }
+
+        // Función para recargar la página
+        function resetPage() {
+            location.reload();
+        }
+
+        // Cargar la primera pregunta al cargar la página
+        window.onload = function() {
+            getNextQuestion(null);
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Chatbot Lesiones del Hombro</h1>
+        <div class="chat-box">
+            <!-- Aquí se mostrarán las preguntas y respuestas como un chat -->
+        </div>
+        <div class="buttons">
+            <button class="btn-yes" onclick="getNextQuestion('si')">Si</button>
+            <button class="btn-no" onclick="getNextQuestion('no')">No</button>
+            <button class="btn-reset" onclick="resetPage()">Reiniciar</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+-----------------------
+-----------------------
+FastAPI
+
+https://www.youtube.com/watch?v=J0y2tjBz2Ao
+
+https://github.com/fastapi/fastapi/blob/master/docs/es/docs/index.md 
+
+-----------------------
+-----------------------
+
+FastAPI
+
+1- Crear una carpeta dentro del escritorio, descargas, etc
+2- ejecutar simbolo de sistemas, eh ir hasta la carpeta creada --> En mi caso: 
+
+C:\Users\lenovo\Downloads\FastAPI>
+
+3- ahora creamos el entorno virtual --> ir a la web de py (https://docs.python.org/es/3/tutorial/venv.html)
+4- ejecutamos el comando para windows:
+
+python -m venv tutorial-env  --> (reemplazar turorial por el nombre del proyecto)
+
+python -m venv fastapi-env
+
+5- Ya creado el entorno, hay q activarlo:
+
+tutorial-env\Scripts\activate   --> recuerda poner el nombre de tu proyecto
+
+fastapi-env\Scripts\activate
+
+6- si todo sale bien, en el promp tendras algo asi:
+
+(fastapi-env) C:\Users\lenovo\Downloads\FastAPI>
+
+7- ahora hay q hacer las instalaciones para q funcione fastapi
+
+8- ir a: fastapi.tiangolo.com --> buscar los comandos!!!!
+
+pip install "fastapi[standard]"
+
+pip install "uvicorn[standard]"
+
+9- ahora abrir vscode --> crear el archivo inicial main.py
+
+
+
+from fastapi import FastAPI
+from typing import Union
+
+app = FastAPI()
+
+#http://localhost:8000/
+#http://127.0.0.1:8000
+#http://127.0.0.1:8000/docs   --> swagger
+
+@app.get("/")
+#def index():
+def read_root():
+    #return "Hola, guachines"
+    return {"Hello": "World"}
+
+
+
+10- Levantar el servidor:
+
+uvicorn main:app --reload
+
+IP: http://127.0.0.1:8000
+
+11- Repetir paso 5 y 10 para levantar servidor, tiene q estar en la ruta de la api
+
+C:\Users\lenovo\Downloads\FastAPI>
+
+fastapi-env\Scripts\activate
+
+uvicorn main:app --reload
+
+
+
+-----------------------
+-----------------------
+
+
+Dentro de vscode terminal
+
+pip install "fastapi[standard]"
+
+uvicorn main:app --reload
+
+

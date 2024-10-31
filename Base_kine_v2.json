@@ -1,0 +1,76 @@
+{
+  "__v": 1,
+  "description": "Base de conocimiento sobre Lesiones del Hombro",
+  "entries": [
+    {
+      "name": "Tendinitis del manguito rotador",
+      "description": "Inflamación de los tendones del manguito rotador, común en personas que realizan movimientos repetitivos con el brazo por encima de la cabeza.",
+      "props": [
+        "Dolor al mover el brazo",
+        "Dificultad para levantar el brazo",
+        "Sensación de debilidad en el hombro",
+        "Tratamiento con reposo, hielo y antiinflamatorios"
+      ]
+    },
+    {
+      "name": "Desgarro del manguito rotador",
+      "description": "Lesión que implica una rotura parcial o completa de uno o más tendones del manguito rotador, generalmente por sobreuso o lesiones traumáticas.",
+      "props": [
+        "Dolor intenso al mover el brazo",
+        "Pérdida de rango de movimiento",
+        "Debilidad significativa en el hombro",
+        "Requiere fisioterapia o cirugía en casos severos"
+      ]
+    },
+    {
+      "name": "Luxación de hombro",
+      "description": "Desplazamiento del hueso del brazo fuera de la cavidad del hombro, usualmente causada por un impacto o movimiento brusco.",
+      "props": [
+        "Dolor inmediato y severo",
+        "Deformidad visible en el hombro",
+        "Hinchazón y moretones",
+        "Reducción de la luxación y rehabilitación"
+      ]
+    },
+    {
+      "name": "Bursitis de hombro",
+      "description": "Inflamación de la bursa, una pequeña bolsa de líquido que amortigua el área entre el hueso y los músculos.",
+      "props": [
+        "Dolor al presionar el hombro",
+        "Limitación de movimiento",
+        "Inflamación alrededor de la articulación",
+        "Tratamiento con descanso, hielo y antiinflamatorios"
+      ]
+    },
+    {
+      "name": "Capsulitis adhesiva (hombro congelado)",
+      "description": "Condición en la que el hombro se vuelve rígido y doloroso, limitando el movimiento, a menudo sin causa aparente.",
+      "props": [
+        "Rigidez progresiva del hombro",
+        "Dolor al mover el brazo",
+        "Reducción del rango de movimiento",
+        "Terapia física y, en algunos casos, inyecciones de esteroides"
+      ]
+    },
+    {
+      "name": "Artrosis del hombro",
+      "description": "Desgaste progresivo del cartílago en la articulación del hombro, común en personas mayores o en aquellos con antecedentes de lesiones.",
+      "props": [
+        "Dolor al realizar actividades",
+        "Rigidez y pérdida de movimiento",
+        "Crépito (chasquidos) al mover el hombro",
+        "Manejo con fisioterapia y antiinflamatorios"
+      ]
+    },
+    {
+      "name": "Pinzamiento subacromial",
+      "description": "Compresión de los tendones del manguito rotador entre el acromion y la cabeza del húmero, causando dolor y limitación.",
+      "props": [
+        "Dolor al levantar el brazo",
+        "Sensación de atrapamiento en el hombro",
+        "Debilidad al levantar objetos",
+        "Requiere fisioterapia y, en algunos casos, cirugía"
+      ]
+    }
+  ]
+}

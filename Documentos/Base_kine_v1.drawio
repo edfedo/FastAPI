@@ -1,0 +1,247 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="vKrXTr1rirWCFvG38sgC">
+    <mxGraphModel dx="2819" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-1" value="Dolor al mover el brazo?" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="50" y="15" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-3" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nslCB-nBmr23ZUp6jEIt-1" target="nslCB-nBmr23ZUp6jEIt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="235" as="sourcePoint" />
+            <mxPoint x="240" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-4" value="Dificultad para levantar el brazo?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="135" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-5" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-6" source="nslCB-nBmr23ZUp6jEIt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="205" as="sourcePoint" />
+            <mxPoint x="558" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-6" value="Sensacion de debilidad en el hombro?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="518" y="257" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-7" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="325" as="sourcePoint" />
+            <mxPoint x="706" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-8" value="Tendinitis del Manguito Rotador" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="666" y="379" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-9" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-10" source="nslCB-nBmr23ZUp6jEIt-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="443" as="sourcePoint" />
+            <mxPoint x="146" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-10" value="Desgarro del Manguito Rotador" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="60" y="495" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-11" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-12" source="nslCB-nBmr23ZUp6jEIt-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="563" as="sourcePoint" />
+            <mxPoint x="-74" y="617" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-12" value="Luxacion de Hombro" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="617" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-13" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-14" source="nslCB-nBmr23ZUp6jEIt-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="685" as="sourcePoint" />
+            <mxPoint x="-204" y="739" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-14" value="Bursitis de Hombro" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="765" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-15" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-16" source="nslCB-nBmr23ZUp6jEIt-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="518" y="443" as="sourcePoint" />
+            <mxPoint x="604" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-16" value="Capsulitis adhesiva (Hombro Congelado)" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="518" y="497" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-17" value="si" style="endArrow=classic;html=1;rounded=0;exitX=0.808;exitY=0.938;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;exitPerimeter=0;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-18" source="nslCB-nBmr23ZUp6jEIt-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-418" y="838" as="sourcePoint" />
+            <mxPoint x="-332" y="892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-18" value="Artrosis de Hombro" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="892" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-19" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-530" y="945" as="sourcePoint" />
+            <mxPoint x="-444" y="999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-20" value="Pinzamiento Subacromial" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1005" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-21" value="no" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-22" source="nslCB-nBmr23ZUp6jEIt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="83" as="sourcePoint" />
+            <mxPoint x="-52" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-22" value="Dolor intenso al mover el brazo?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-252" y="135" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-24" value="no" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-230" y="205" as="sourcePoint" />
+            <mxPoint x="-350" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-26" value="Dolor inmediato y severo?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="257" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-27" value="no" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-370" y="327" as="sourcePoint" />
+            <mxPoint x="-490" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-28" value="Dolor al presionar el hombro?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="379" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-29" value="no" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-510" y="445" as="sourcePoint" />
+            <mxPoint x="-630" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-30" value="Dolor al realizar actividades?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="497" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-31" value="no" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-650" y="565" as="sourcePoint" />
+            <mxPoint x="-770" y="617" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-32" value="Dolor al levantar el brazo?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="617" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-33" value="no" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-34" source="nslCB-nBmr23ZUp6jEIt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="215" as="sourcePoint" />
+            <mxPoint x="290" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-34" value="Rigidez progresiva del hombro?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="249" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-35" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-36" source="nslCB-nBmr23ZUp6jEIt-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="325" as="sourcePoint" />
+            <mxPoint x="446" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-36" value="Reduccion del rango de movimiento?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="371" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-37" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-38" source="nslCB-nBmr23ZUp6jEIt-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="195" as="sourcePoint" />
+            <mxPoint x="-104" y="249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-38" value="Perdida del rango de movimiento?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-144" y="249" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-39" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-40" source="nslCB-nBmr23ZUp6jEIt-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="325" as="sourcePoint" />
+            <mxPoint x="-4" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-40" value="Debilidad significativa en el hombro?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-44" y="371" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-41" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-42" source="nslCB-nBmr23ZUp6jEIt-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-300" y="333" as="sourcePoint" />
+            <mxPoint x="-254" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-42" value="Deformidad visible en el hombro?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-294" y="379" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-43" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-44" source="nslCB-nBmr23ZUp6jEIt-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-204" y="451" as="sourcePoint" />
+            <mxPoint x="-170" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-44" value="Hinchazon y moretones?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-200" y="497" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-45" value="si" style="endArrow=classic;html=1;rounded=0;exitX=0.908;exitY=0.813;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;exitPerimeter=0;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-46" source="nslCB-nBmr23ZUp6jEIt-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-434" y="451" as="sourcePoint" />
+            <mxPoint x="-400" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-46" value="Limitacion de movimiento?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-430" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-47" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-48" source="nslCB-nBmr23ZUp6jEIt-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-341" y="577" as="sourcePoint" />
+            <mxPoint x="-320" y="638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-48" value="Inflamacion alrededor de la articulacion?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-340" y="635" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-49" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-50" source="nslCB-nBmr23ZUp6jEIt-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-571" y="565" as="sourcePoint" />
+            <mxPoint x="-550" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-50" value="Rigidez y perdida de movimiento?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-580" y="626" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-51" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-478" y="697" as="sourcePoint" />
+            <mxPoint x="-460" y="758" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-52" value="Crepito (chasquidos) al mover el hombro?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-490" y="758" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-53" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-54" source="nslCB-nBmr23ZUp6jEIt-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-708" y="685" as="sourcePoint" />
+            <mxPoint x="-690" y="746" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-54" value="Sensacion de atrapamiento en el hombro?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-720" y="746" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-55" value="si" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;" edge="1" parent="1" target="nslCB-nBmr23ZUp6jEIt-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-618" y="815" as="sourcePoint" />
+            <mxPoint x="-600" y="876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nslCB-nBmr23ZUp6jEIt-56" value="Debilidad al levantar objetos?" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-630" y="876" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,38 @@
+---------------------
+---------------------
+
+Postman
+
+---------------------
+---------------------
+
+usar metodo POST 
+
+POST --> http://127.0.0.1:8000/diagnostico/
+
+Opciones BODY --- RAW --- JSON
+
+{
+  "dolor_movimiento": true,
+  "dificultad_levantar_brazo": true,
+  "debilidad_hombro": true,
+  "perdida_rango_movimiento": false,
+  "dolor_intenso": false,
+  "deformidad_hombro": false,
+  "hinchazon": false,
+  "rigidez_hombro": false,
+  "dolor_presion": false,
+  "crepito": false,
+  "atrapamiento_hombro": false
+}
+
+
+Salida -----> 
+
+{
+    "diagnostico": "Tendinitis del manguito rotador"
+}
+
+
+---------------------
+---------------------
