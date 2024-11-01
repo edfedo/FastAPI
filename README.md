@@ -79,34 +79,36 @@ Con esto ya tendria que abrir la Interfaz del Sistema Experto
 -------------------------
 -------------------------
 
+------------
 
-├── Documentos/                        <- Documentación y archivos de referencia
-│   ├── README.md                      <- Descripción general del proyecto
-│   ├── Instalacion_fastapi.txt        <- Instrucciones de instalación
-│   ├── postman.txt                    <- Ejemplos de uso en Postman
-│   └── FastAPI_Final_Federico_DOliveira_V3.zip  <- Archivo comprimido con proyecto final
-├── experto_general/                   <- Código y lógica principal del sistema experto
-│   ├── acciones.py                    <- Archivo principal de acciones
-│   ├── acciones copy.py               <- Copia de respaldo de acciones
-│   ├── main.py                        <- Archivo principal del sistema experto
-│   ├── main_BK_MAIN_OK_FUNCA.py       <- Versión funcional del sistema
-│   ├── main_BK_ORIGINAL_FASTapi.py    <- Versión original para FASTAPI
-│   ├── main_BK_SE_ORIGINAL.py         <- Otra versión del sistema
-│   └── cli.py                         <- Interfaz de línea de comandos
-├── fastapi-env/                       <- Entorno y dependencias de FastAPI
-│   ├── Pipfile                        <- Archivo de dependencias (Pipenv)
-│   └── Pipfile.lock                   <- Archivo de bloqueo de dependencias
-├── interfaz/                          <- Archivos de la interfaz y elementos visuales
-│   └── static/                        <- Archivos estáticos para la interfaz
-├── _pycache_/                         <- Archivos temporales de caché
-├── data/                              <- Base de conocimiento y archivos de datos
-│   ├── Base_kine_v1.json              <- Versión 1 de la base de datos
-│   ├── Base_kine_v2.json              <- Versión 2 de la base de datos
-│   ├── base_conocimiento.json         <- Base de conocimiento principal
-│   ├── example.json                   <- Archivo de ejemplo
-│   └── medios_cultivo_BK_ORIGINAL.json <- Medios de cultivo (backup original)
-└── .gitignore                         <- Configuración de archivos a ignorar en Git
+    ├── Documentos/                        <- Documentación y archivos de referencia
+    │   ├── README.md                      <- Descripción general del proyecto
+    │   ├── Instalacion_fastapi.txt        <- Instrucciones de instalación
+    │   ├── postman.txt                    <- Ejemplos de uso en Postman
+    │   └── FastAPI_Final_Federico_DOliveira_V3.zip  <- Archivo comprimido con proyecto final
+    ├── experto_general/                   <- Código y lógica principal del sistema experto
+    │   ├── acciones.py                    <- Archivo principal de acciones
+    │   ├── acciones copy.py               <- Copia de respaldo de acciones
+    │   ├── main.py                        <- Archivo principal del sistema experto
+    │   ├── main_BK_MAIN_OK_FUNCA.py       <- Versión funcional del sistema
+    │   ├── main_BK_ORIGINAL_FASTapi.py    <- Versión original para FASTAPI
+    │   ├── main_BK_SE_ORIGINAL.py         <- Otra versión del sistema
+    │   └── cli.py                         <- Interfaz de línea de comandos
+    ├── fastapi-env/                       <- Entorno y dependencias de FastAPI
+    │   ├── Pipfile                        <- Archivo de dependencias (Pipenv)
+    │   └── Pipfile.lock                   <- Archivo de bloqueo de dependencias
+    ├── interfaz/                          <- Archivos de la interfaz y elementos visuales
+    │   └── static/                        <- Archivos estáticos para la interfaz
+    ├── _pycache_/                         <- Archivos temporales de caché
+    ├── data/                              <- Base de conocimiento y archivos de datos
+    │   ├── Base_kine_v1.json              <- Versión 1 de la base de datos
+    │   ├── Base_kine_v2.json              <- Versión 2 de la base de datos
+    │   ├── base_conocimiento.json         <- Base de conocimiento principal
+    │   ├── example.json                   <- Archivo de ejemplo
+    │   └── medios_cultivo_BK_ORIGINAL.json <- Medios de cultivo (backup original)
+    └── .gitignore                         <- Configuración de archivos a ignorar en Git
 
+------------
 
 -------------------------
 -------------------------
