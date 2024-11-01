@@ -22,50 +22,43 @@
 
 ------------
 
-[-] Instalación del Servicio de FastApi para poder ejecutar el Sistema Experto
+[-] **Instalación del Servicio de FastApi para poder ejecutar el Sistema Experto**
 
-1- ejecutar simbolo de sistemas como administrador
-2- ir hastala direccion de descarga:
+**1-** ejecutar simbolo de sistemas como administrador
 
-ej: 
+**2-** ir hastala direccion de descarga:
 
-C:\Users\lenovo\Downloads\FastAPI>
+ej: C:\Users\lenovo\Downloads\FastAPI>
 
-4- ejecutamos el comando para windows:
+**4-** ejecutamos el comando para windows: python -m venv fastapi-env
 
-python -m venv fastapi-env
+**5-** Ya creado el entorno, hay q activarlo: fastapi-env\Scripts\activate
 
+**6-** si todo sale bien, en el promp tendras algo asi: (fastapi-env) C:\Users\lenovo\Downloads\FastAPI>
 
-5- Ya creado el entorno, hay q activarlo:
+**7-** ahora hay q hacer las instalaciones para q funcione fastapi
 
-fastapi-env\Scripts\activate
-
-6- si todo sale bien, en el promp tendras algo asi:
-
-(fastapi-env) C:\Users\lenovo\Downloads\FastAPI>
-
-7- ahora hay q hacer las instalaciones para q funcione fastapi
-
-8- ir a: fastapi.tiangolo.com --> buscar los comandos!!!!
+**8-** ir a: fastapi.tiangolo.com --> buscar los comandos!!!!
 
 pip install "fastapi[standard]"
 
 pip install "uvicorn[standard]"
 
-9- ahora abrir vscode --> Abrir la carpeta completa "FastAPI"
+**9-** ahora abrir vscode --> Abrir la carpeta completa "FastAPI"
 
-10- seleccionar el archivo "main.py" y abrir la consola "Terminal"
+**10-** seleccionar el archivo "main.py" y abrir la consola "Terminal"
 
-11- Levantar el servidor:
+**11-** Levantar el servidor:
 
 Ejecutar el siguiente comando: uvicorn main:app --reload
 
-12- Por defecto tendria que cargar el servicio en la direccion IP http://127.0.0.1:8000/
+**12-** Por defecto tendria que cargar el servicio en la direccion IP http://127.0.0.1:8000/
 
-13- Poner la direccion IP junto con el Numero de puerto en el navegador, esta ruta es un localhost,
+**13-** Poner la direccion IP junto con el Numero de puerto en el navegador, esta ruta es un localhost,
 por ende tambien es lo mismo poner localhost:8000.
 Con esto ya tendria que abrir la Interfaz del Sistema Experto
 
+-------------------------
 -------------------------
 
 # sistema-experto-python
