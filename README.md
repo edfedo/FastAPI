@@ -24,10 +24,10 @@
 
 [-] **Project.description:**
 
-Descripción del Proyecto: Sistema Experto para el Diagnóstico de Lesiones del Hombro en Tierra 
+**Descripción del Proyecto:** Sistema Experto para el Diagnóstico de Lesiones del Hombro en Tierra 
 del Fuego
 
-Objetivo del Trabajo
+**Objetivo del Trabajo**
 
 El objetivo del proyecto es desarrollar un sistema experto basado en aprendizaje automático que 
 permita diagnosticar y sugerir tratamientos para las lesiones del hombro más comunes en Tierra del 
