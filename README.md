@@ -113,9 +113,26 @@ Project Organization
     └── .gitignore                         <- Configuración de archivos a ignorar en Git
 
 ------------
+-------------------------
+-------------------------
+[-] **Languages ​​and Tools**
 
--------------------------
--------------------------
+<div id="header" align="left">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
+</a>
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+</a>  
+<img src="https://img.shields.io/badge/DataSet-05192D?style=for-the-badge&logo=datacamp&logoColor=65FF8F" />
+</a> 
+<img src="https://img.shields.io/badge/machine learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+</a>
+<img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+</a> 
+</div>
+
+------------
 
 # sistema-experto-python
 Sistema experto en Python
