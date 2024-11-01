@@ -22,6 +22,24 @@
 
 ------------
 
+[-] **Project.description:**
+
+Descripción del Proyecto: Sistema Experto para el Diagnóstico de Lesiones del Hombro en Tierra 
+del Fuego
+
+Objetivo del Trabajo
+
+El objetivo del proyecto es desarrollar un sistema experto basado en aprendizaje automático que 
+permita diagnosticar y sugerir tratamientos para las lesiones del hombro más comunes en Tierra del 
+Fuego. Este sistema experto será capaz de identificar afecciones como la Tendinitis del manguito 
+rotador, el Desgarro del manguito rotador, la Luxación de hombro, la Bursitis de hombro, la 
+Capsulitis adhesiva (hombro congelado), la Artrosis del hombro y el Pinzamiento subacromial. Con 
+este sistema, los profesionales médicos podrán obtener diagnósticos preliminares en base a los 
+síntomas que reporten los pacientes, facilitando el acceso a una atención más precisa y rápida, 
+especialmente en áreas remotas donde los especialistas no están siempre disponibles.
+
+------------
+
 [-] **Instalación del Servicio de FastApi para poder ejecutar el Sistema Experto**
 
 **1-** ejecutar simbolo de sistemas como administrador
