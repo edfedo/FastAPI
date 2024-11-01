@@ -131,6 +131,14 @@ Project Organization
 <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 </a> 
 </div>
+------------
+
+<p align="left">
+    <a href="https://github.com/alexandresanlim/Badges4-README.md-Profile#-contact-">
+    <img src="https://img.shields.io/badge/Badges_4_README_Profile-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" alt="Badges 4 README Profile" />
+  </a>
+</p>
+
 
 ------------
 
